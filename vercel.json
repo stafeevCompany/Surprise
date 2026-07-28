@@ -10,6 +10,7 @@
     {
       "src": "/(.*)",
       "dest": "LoveSite/wsgi.py"
-    }
+    },
+    { "src": "/static/(.*)", "dest": "/static/$1" }
   ]
 }
