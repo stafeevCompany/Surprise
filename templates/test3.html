@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+
+    <div>
+        <div class="blockImag">
+            <img src="{% static "image/314337249009912190.jpg" %}" rel="картинка"/>
+        </div>
+        <h2>О а это надеюсь будем мы)))</h2>
+        <div class="blockLink">
+           <a href="{% url 'test4' %}">Согласна?</a> 
+        </div>
+        
+    </div>
+    
+{% endblock %}

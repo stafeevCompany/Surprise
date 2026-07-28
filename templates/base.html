@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Самой милой девушке</title>
+    <link rel="icon" href="{% static 'ico/589971619950912023.jpg' %}">
+    <link href="{% static 'styles.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="blockQeustion">
+        {% block content %}
+        {% endblock %}
+    </div>
+    
+</body>
+</html>
