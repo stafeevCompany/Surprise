@@ -15,8 +15,5 @@
       "src": "/(.*)",
       "dest": "LoveSite/wsgi.py"
     }
-  ],
-  "static": {
-    "public": "LoveSite/staticfiles"
-  }
+  ]
 }
